@@ -14,11 +14,11 @@ We cannot calculate the absolute running time of an algorithm, hence, we use Asy
 ## Big-O Time complexity
 
 - we count the number of times a statement executes based on the input size
-O(n) - Linear
-O(1) - Constant
-O(n e2) - Quadratic
-O(n e3) - Cubic
-O(logn) - Logarithmic  - input size reduces by half on each iteration
+  O(n) - Linear
+  O(1) - Constant
+  O(n e2) - Quadratic
+  O(n e3) - Cubic
+  O(logn) - Logarithmic  - input size reduces by half on each iteration
 
 ### Big-O Space complexity
 
@@ -50,3 +50,13 @@ Fibonacci sequence
 Factorial of a number
 Prime number
 Power of two
+
+### Fibonacci Sequence
+
+Previous two numbers equals next number. Starts with 0 and 1.
+
+### Factorial Of A Number
+
+The factorial of a non-negative integer "n"(denoted by n!), is the **product** of all positive integers **less than or equal** to n.
+The factorial of 0 is 1.
+`factorial(4) = 4 * 3 * 2 * 1=24`
