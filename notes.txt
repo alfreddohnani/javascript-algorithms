@@ -1,8 +1,18 @@
 How to represent the complexity of an Algorithm
 ------------------------------------------------
 
+We cannot calculate the absolute running time of an algorithm, hence,
+
 By using Asymptotic notations - mathematical tools used to represent time and space complexity
 
 1. Big-O Notation(O-Notation) - Worst case complexity
 2. Omega Notation - Best case complexity
 3. Theta Notation  - Average case complexity
+
+
+Big-O Notation
+- Expressed in terms of input
+- Focuses on the big picture
+
+Big-O Time complexity
+- we count the number of times a statement executes based on the input size
