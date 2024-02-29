@@ -65,3 +65,7 @@ The factorial of 0 is 1.
 ### Prime Number
 
 A natural number greater than 1 that is not the product of two smaller natural numbers. Simply put, it is only divisible by 1 and itself.
+
+### Power of two
+
+Given a positive integer "n", determine if the number is a power of 2 or not.
