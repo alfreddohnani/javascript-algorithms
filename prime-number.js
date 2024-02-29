@@ -3,7 +3,7 @@ function isPrime(n) {
   if (n < 2) {
     return false;
   }
-  for (let i = 2; i < n; i++) {
+  for (let i = 2; i <= Math.sqrt(n); i++) {
     if (n % i === 0) {
       return false;
     }
@@ -16,6 +16,7 @@ console.log(isPrime(11));
 console.log(isPrime(5));
 console.log(isPrime(3));
 console.log(isPrime(2));
+console.log(isPrime(22));
 
-// Time complexity - O(n)
+// Time complexity - O(sqrt(n))
 // Space complexity - O(1)
