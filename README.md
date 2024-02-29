@@ -54,9 +54,14 @@ Power of two
 ### Fibonacci Sequence
 
 Previous two numbers equals next number. Starts with 0 and 1.
+e.g [0,1,1,2,3,5,8,13]
 
 ### Factorial Of A Number
 
 The factorial of a non-negative integer "n"(denoted by n!), is the **product** of all positive integers **less than or equal** to n.
 The factorial of 0 is 1.
 `factorial(4) = 4 * 3 * 2 * 1=24`
+
+### Prime Number
+
+A natural number greater than 1 that is not the product of two smaller natural numbers. Simply put, it is only divisible by 1 and itself.
