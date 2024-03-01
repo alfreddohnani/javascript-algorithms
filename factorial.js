@@ -1,3 +1,5 @@
+// Problem - Given an integer "n", find the factorial of that integer
+
 function factorial(n) {
   let result = 1;
 
@@ -6,5 +8,7 @@ function factorial(n) {
   }
   return result;
 }
+
+console.log(factorial(4));
 
 // Big-O time complexity=O(n)

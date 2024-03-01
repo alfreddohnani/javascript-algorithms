@@ -1,3 +1,4 @@
+// Problem - Given a number "n", find the first "n" elements of the Fibonacci sequence
 function fibonacci(n) {
   const sequence = [0, 1];
 
@@ -9,5 +10,9 @@ function fibonacci(n) {
 
   return sequence;
 }
+
+console.log(fibonacci(0));
+console.log(fibonacci(1));
+console.log(fibonacci(6));
 
 // Big-O = O(n)

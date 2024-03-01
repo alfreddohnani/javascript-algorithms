@@ -69,3 +69,10 @@ A natural number greater than 1 that is not the product of two smaller natural n
 ### Power of two
 
 Given a positive integer "n", determine if the number is a power of 2 or not.
+
+## Recursion
+
+Recursion is a problem solving technique where the solution depends on solutions to smaller instances of the same problem.
+It is when a function calls itself. It can be applied when you find yourself breaking down a problem into smaller versions of thesame problem.
+Every recursion needs to have a base case - a condition to terminate the recursion.
+Recursion may simplify the solution but it does not always translate to a faster or more efficient solution.
